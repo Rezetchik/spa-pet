@@ -1,0 +1,66 @@
+.Header {
+  display: flex;
+  padding: 16px 0;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+  .ButtonBack {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    svg {
+      display: block;
+      margin-right: 9px;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+    &:active {
+      opacity: 0.9;
+    }
+  }
+}
+
+.Title {
+  color: rgb(10, 10, 10);
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Wrapper {
+  display: block;
+  margin-top: 48px;
+  padding: 0 146px;
+  .Content {
+    display: block;
+    margin: 0 auto;
+    width: 848px;
+    img {
+      display: block;
+      width: 100%;
+      max-width: 848px;
+      object-fit: contain;
+    }
+    .DivDiscription {
+      margin-top: 48px;
+      display: block;
+      .Discription {
+        max-width: 848px;
+        color: rgb(10, 10, 10);
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}

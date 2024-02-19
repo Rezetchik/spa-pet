@@ -1,0 +1,28 @@
+.Block {
+  width: 558px;
+  display: block;
+  margin-top: 24px;
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 12px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04),
+    0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+
+  .DivImg {
+    height: 273px;
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .Title {
+    padding: 24px 16px 32px;
+    .Reaction {
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

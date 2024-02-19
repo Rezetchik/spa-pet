@@ -1,0 +1,45 @@
+.Search {
+  position: relative;
+  max-width: 1140px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Icon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 17px;
+  top: 15px;
+}
+
+.Input {
+  padding: 8px 14px 8px 46px;
+  width: 100%;
+  border: 1px solid rgba(145, 158, 171, 0.32);
+  border-radius: 6px;
+  height: 48px;
+  outline: none;
+  color: rgb(51, 51, 51);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+
+  &:focus {
+    border: 1px solid rgba(145, 158, 171, 0.7);
+  }
+}
+
+.Delete {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.3;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

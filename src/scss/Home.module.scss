@@ -1,0 +1,39 @@
+.Header {
+  margin-bottom: 32px;
+  .HeaderSpan {
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .Description {
+    display: block;
+    color: rgb(10, 10, 10);
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+.Content {
+  display: flex;
+  justify-content: space-between;
+  .Items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.SpanFooter {
+  margin-top: 20px;
+  color: rgb(10, 10, 10);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}

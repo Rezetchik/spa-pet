@@ -1,0 +1,27 @@
+.Mark {
+  display: flex;
+  .Like {
+    display: flex;
+    .True,
+    .False {
+      cursor: pointer;
+    }
+    span {
+      display: block;
+      margin: auto;
+      margin-left: 11px;
+    }
+  }
+  .DisLike {
+    @extend .Like;
+    margin-left: 27px;
+  }
+  span {
+    display: inline-block;
+    color: rgb(79, 79, 79);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
